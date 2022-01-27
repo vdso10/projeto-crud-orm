@@ -1,0 +1,23 @@
+<%-include ('../partials/header.ejs')%>
+
+
+<h1>Nova Pessoa</h1>
+
+<p><a href="/pesssoas">Voltar</a></p>
+
+<form method="post">
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite seu nome" />
+    </div>
+    <br />
+    <div class="mb-3">
+        <label for="cargo" class="form-label">Cargo</label>
+        <input type="text" class="form-control" name="cargo" id="cargo" placeholder="Digite seu cargo" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-success">Salvar</button>
+      
+</form>
+
+   <%-include ('../partials/footer.ejs')%>
